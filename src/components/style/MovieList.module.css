@@ -1,0 +1,42 @@
+.listBox {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  border-bottom: 1px solid #eaeaea;
+  padding: 1rem;
+}
+
+.listBox:not(:last-child) {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.contentBox {
+  margin-left: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.contentBox div {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.contentBox p {
+  color: #666;
+}
+
+.contentBox div:last-child {
+  color: #0070f3;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.contentBox div:last-child:hover {
+  color: #005bb5;
+}
